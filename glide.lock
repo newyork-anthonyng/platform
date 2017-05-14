@@ -20,8 +20,6 @@ imports:
   - opengraph
 - name: github.com/fsnotify/fsnotify
   version: 629574ca2a5df945712d3079857300b5e4da0236
-- name: github.com/go-gorp/gorp
-  version: 0c9bc0918534d133cedb439a24adc7cbe66e4a9d
 - name: github.com/go-ldap/ldap
   version: 8168ee085ee43257585e50c6441aadf54ecb2c9f
 - name: github.com/go-sql-driver/mysql
@@ -66,6 +64,8 @@ imports:
   version: 2704adc878c21e1329f46f6e56a1c387d788ff94
   subpackages:
   - oid
+- name: github.com/mattermost/gorp
+  version: 264455541e08d3b5ec89f605e9695823d5bec606
 - name: github.com/magiconair/properties
   version: 51463bfca2576e06c62a8504b5c0f06d61312647
 - name: github.com/mattermost/rsc
